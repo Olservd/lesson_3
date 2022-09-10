@@ -1,0 +1,65 @@
+#top{
+   font-size: 35px;
+}
+.header-text{
+display: inline-block;
+max-width: 800px;
+font-size: 25px;
+text-align: justify;
+margin-right: 20px;
+}
+.footer-link{
+   color: blueviolet;
+   font-size: 20px;
+}
+.container{
+   margin: 0 auto;
+   max-width: 1140px;
+   font-size: 20px;
+}
+.header-center{
+   text-align: center;
+}
+a{
+   text-decoration: none;
+}
+ul{
+   font-size: 20px;
+   color: red;
+}
+
+.green{
+   color: green;
+}
+p{
+   text-indent: 25px;
+}
+.blue p{
+   color: blue;
+}
+
+.pink, .white, .brown{
+   color: yellow;
+}
+.number_four_text .number_four_text_p{
+   color: chocolate;
+}
+.number_two_text > p{
+   color: rgb(26, 176, 222);
+}
+.number_two_text ~ p{
+   color: yellowgreen;
+}
+.number_three_p + p{
+   color: brown;
+}
+
+*{
+   margin-right: 20px;
+}
+.number_six_blue *{
+   margin-right: 200px;
+}
+main .number_four_text > p{
+   color: burlywood;
+}
